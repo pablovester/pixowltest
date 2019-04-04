@@ -1,19 +1,23 @@
 <template>
   <div id="app">
     <Bar/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MainHeader/>
+    <Section/>
   </div>
 </template>
 
 <script>
 import Bar from './components/Bar.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import MainHeader from './components/MainHeader.vue'
+import Section from './components/Section.vue'
+
 
 export default {
   name: 'app',
   components: {
     Bar,
-    HelloWorld
+    MainHeader,
+    Section
   }
 }
 </script>
@@ -23,10 +27,26 @@ export default {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   margin: 0;
   background-color: black;
 }
 
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h3, li {
+  font-weight: 500;
+}
+.nomargin {
+    margin: 0;
+  }
+
+  .white {
+    color: white;
+  }
 </style>

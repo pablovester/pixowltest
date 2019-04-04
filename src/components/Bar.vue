@@ -1,12 +1,16 @@
 <template>
   <div id="bar">
-  	<div id="btn">{{ btntxt }}DOWNLOAD</div>
+  	<div id="btn">{{ btntxt }}</div>
   </div>
 </template>
 
 <script>
-data: {
-  btntxt: "boke"
+export default {
+	data () {
+		return {
+			btntxt: "DOWNLOAD"
+		}
+	}
 }
 </script>
 
