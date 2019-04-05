@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
+  <div id="header">
     <img src="../assets/bannerimg.png">
     <h1 class="nomargin">{{title}}</h1>
     <h3>{{subtitle}}</h3>

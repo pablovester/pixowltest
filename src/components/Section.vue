@@ -1,6 +1,6 @@
 <template>
-  <div id="content">
-    <img src="../assets/img2.png">
+  <div id="content" class="section">
+    <img>
     <div class="text-container">
       <h1 class="white">{{title}}</h1>
       <h3>{{info}}</h3>
@@ -34,38 +34,28 @@ export default {
 }
 </script>
 
-<style>
-#content {
-  background-color: #151619;
-  min-height: 200vh;
-  overflow: hidden;
-  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</style>
 <style scoped>
 img{
   width: 100%;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 36px;
   margin-bottom: 0;
 }
 
 h3 {
+  font-size: 18px;
   color: #b2b5b7
 }
 
-.title-2 {
-  font-size: 36px;
+h2 {
+  font-size: 24px;
   color: #fe6b20;
 }
 
 li {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 </style>
